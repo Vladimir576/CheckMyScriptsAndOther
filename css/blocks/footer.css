@@ -1,0 +1,78 @@
+.footer__nav-item-svg {
+  width: 25px;
+  height: 25px;
+}
+
+.footer__wrapper,
+.footer__nav-list {
+  display: flex;
+}
+
+.footer__wrapper {
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 5.9375rem;
+  width: 100%;
+}
+
+.footer__addres-street {
+  font-size: 21px;
+  color: rgb(0, 0, 0);
+  line-height: 1.143;
+  margin-bottom: 10px;
+}
+
+.footer__nav-item-picture {
+  margin-right: 15px;
+}
+
+.footer__addres-phone {
+  font-size: 21px;
+  color: rgb(54, 90, 73);
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+
+.footer__addres-svg {
+  fill: #365a49;
+  margin-right: 5px;
+}
+
+.footer__nav-item-svg {
+  fill: #b2b2b2;
+  transition: 0.5s;
+}
+
+.footer__nav-item-svg:hover {
+  transition: 0.5s;
+  fill: black;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  max-width: 60rem;
+}
+
+.container--without {
+  width: auto;
+}
+
+.map-card {
+  width: 100%;
+  height: 100vh;
+}
+
+.containerr {
+  display: flex;
+  width: 100vw;
+  background-color: white;
+  z-index: 1;
+  min-height: 5.9375rem;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+}

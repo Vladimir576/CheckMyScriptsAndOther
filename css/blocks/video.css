@@ -1,0 +1,35 @@
+.video {
+  position: relative;
+  background-color: #f8faf9;
+}
+
+.video::before {
+  content: url(/icons/listvideo1.png);
+  display: block;
+  top: 500px;
+  left: 100px;
+  position: absolute;
+}
+
+.video::after {
+  content: url(/icons/listvideo2.png);
+  display: block;
+  position: absolute;
+  right: 190px;
+  top: 160px;
+}
+
+.container--after::after {
+  content: url(/icons/ezhevika.png);
+  display: block;
+  position: absolute;
+  bottom: -119px;
+  z-index: 1;
+  right: -279px;
+}
+
+.video__content {
+  width: 660px;
+  height: 370px;
+  width: 100%;
+}
