@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="./css//blocks/fixedMenu.css">
     <link rel="stylesheet" href="./css/blocks/media.css">
     <link rel="stylesheet" href="./css/blocks/video.css">
+    
     <head>
         <script src="https://api-maps.yandex.ru/2.1/?apikey=7189b0e2-609f-463b-bcb6-3820a6a10483&lang=ru_RU" type="text/javascript">
         </script>
@@ -39,31 +40,31 @@
      <nav class="fixed-menu">
         <ul class="fixed-menu__list">
             <li class="fixed-menu__item fixed-menu__item--active">
-                <a href="" class="fixed-menu__item-link"></a>
+                <a href="" class="fixed-menu__item-link"  data-scroll-to="0"></a>
             </li>
             <li class="fixed-menu__item">
-                <a href="" class="fixed-menu__item-link"></a>
+                <a href="" class="fixed-menu__item-link"  data-scroll-to="1"></a>
             </li>
             <li class="fixed-menu__item">
-                <a href="" class="fixed-menu__item-link"></a>
+                <a href="" class="fixed-menu__item-link"  data-scroll-to="2"></a>
             </li>
             <li class="fixed-menu__item">
-                <a href="" class="fixed-menu__item-link"></a>
+                <a href="" class="fixed-menu__item-link" data-scroll-to="3"></a>
             </li>
             <li class="fixed-menu__item">
-                <a href="" class="fixed-menu__item-link"></a>
+                <a href="" class="fixed-menu__item-link" data-scroll-to="4"></a>
             </li>
             <li class="fixed-menu__item">
-                <a href="" class="fixed-menu__item-link"></a>
+                <a href="" class="fixed-menu__item-link"  data-scroll-to="5"></a>
             </li>
             <li class="fixed-menu__item">
-                <a href="" class="fixed-menu__item-link"></a>
+                <a href="" class="fixed-menu__item-link"  data-scroll-to="6"></a>
             </li>
             <li class="fixed-menu__item">
-                <a href="" class="fixed-menu__item-link"></a>
+                <a href="" class="fixed-menu__item-link"  data-scroll-to="7"></a>
             </li>
             <li class="fixed-menu__item">
-                <a href="" class="fixed-menu__item-link"></a>
+                <a href="" class="fixed-menu__item-link"  data-scroll-to="8"></a>
             </li>
         </ul>
                 </nav> 
@@ -95,7 +96,7 @@
 </div>
 </section>
 
-    <section id="1" class="section bars">
+    <section id="1" class="section bars active">
         <div class="container container-bars">
             <header class="header">
                 <div class="header__buttons">
@@ -106,25 +107,25 @@
                         <ul class="nav__list">
 
                             <li class="nav__item">
-                                <a href="#" class="nav__link"> О нас</a>
+                                <a href="#" class="nav__link" data-scroll-to="1"> О нас</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link"> Батончики</a>
+                                <a href="#" class="nav__link" data-scroll-to="2"> Батончики</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link"> Команда</a>
+                                <a href="#" class="nav__link"  data-scroll-to="3"> Команда</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link"> Меню</a>
+                                <a href="#" class="nav__link"  data-scroll-to="4"> Меню</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link"> Отзывы</a>
+                                <a href="#" class="nav__link"  data-scroll-to="5"> Отзывы</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link"> Как мы работаем</a>
+                                <a href="#" class="nav__link"  data-scroll-to="6"> Как мы работаем</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link"> Контакты</a>
+                                <a href="#" class="nav__link"  data-scroll-to="7"> Контакты</a>
                             </li>
                         </ul>
                     </nav>
@@ -1181,7 +1182,10 @@
 <script src="./scripts/slider.js"></script>
 <script src="./scripts/xhr.js"></script>
 <script src="./scripts/carteAccordeon.js"></script>
+<script src="node_modules/jquery-touchswipe/jquery.touchSwipe.min.js"></script>
 <script src="./scripts/pageScroll.js"></script>
+
+
 </body>
 
 </html>
