@@ -4,7 +4,7 @@
 }
 
 .video::before {
-  content: url(/icons/listvideo1.png);
+  content: url('../../icons/listvideo1.png');
   display: block;
   top: 500px;
   left: 100px;
@@ -12,7 +12,7 @@
 }
 
 .video::after {
-  content: url(/icons/listvideo2.png);
+  content: url('../../icons/listvideo2.png');
   display: block;
   position: absolute;
   right: 190px;
@@ -20,7 +20,7 @@
 }
 
 .container--after::after {
-  content: url(/icons/ezhevika.png);
+  content: url('../../icons/ezhevika.png');
   display: block;
   position: absolute;
   bottom: -119px;
