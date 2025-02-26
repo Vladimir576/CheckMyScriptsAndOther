@@ -12,7 +12,7 @@
 }
 
 .advantages::after {
-    content: url("/icons/malinabaton.png");
+    content: url("../../icons/malinabaton.png");
     position: absolute;
     left: 0%;
     top: 74%;
@@ -24,7 +24,7 @@
 }
 
 .advantages__item--after::after {
-    content: url("/icons/bablsend.png");
+    content: url("../../icons/bablsend.png");
     position: absolute;
     top: 21%;
     left: 113%;
@@ -32,7 +32,7 @@
 }
 
 .advantages::before {
-    content: url("/icons/list.png");
+    content: url("../../icons/list.png");
     position: absolute;
     top: 36%;
     z-index: -1;
@@ -88,19 +88,6 @@
     margin-right: 0;
 }
 
-/* .advantages__item-picture::after {
-    content: "";
-    display: block;
-    left: 150px;
-    background-image: url(/icons/bablsend.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 90px;
-    height: 25px;
-    position: absolute;
-    left: 150px;
-    top: 69px;
-} */
 
 .babl-block {
     width: 100%;

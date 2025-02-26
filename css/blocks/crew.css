@@ -76,7 +76,7 @@ img {
 }
 
 .team::before {
-  content: url(/icons/malina.png);
+  content: url('../../icons/malina.png');
   position: absolute;
   top: 90%;
   left: 1%;

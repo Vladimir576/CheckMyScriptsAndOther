@@ -1,5 +1,5 @@
 .carte {
-  background-image: url(/icons/cartebg.png);
+  background-image: url('../../icons/cartebg.png');
   background-size: cover;
 }
 
@@ -56,15 +56,15 @@
 }
 
 .carte__item-photo--one {
-  background-image: url(/icons/withmilk.png);
+  background-image: url('../../icons/withmilk.png');
 }
 
 .carte__item-photo--two {
-  background-image: url(/icons/withFruits.png);
+  background-image: url('../../icons/withFruits.png');
 }
 
 .carte__item-photo--three {
-  background-image: url(/icons/withWildberries.png);
+  background-image: url('../../icons/withWildberries.png');
 }
 
 .carte__list-close {

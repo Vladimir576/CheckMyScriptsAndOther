@@ -7,14 +7,14 @@
 }
 
 .reviews::before {
-    content: url("/icons/klubnikarew.png");
+    content: url("../../icons/klubnikarew.png");
     position: absolute;
     right: 14%;
     top: 8%;
 }
 
 .reviews::after {
-    content: url("/icons/yagodireview.png");
+    content: url("../../icons/yagodireview.png");
     position: absolute;
     top: 78%;
     z-index: 1;
@@ -25,7 +25,7 @@
 }
 
 .reviews__block::before {
-    content: url("/icons/yagodigrayrev.png");
+    content: url("../../icons/yagodigrayrev.png");
     position: absolute;
     right: 0;
 }

@@ -1,18 +1,18 @@
 .delivery {
   position: relative;
-  background-image: url(/icons/delivery.png);
+  background-image: url('../../icons/delivery.png');
   color: #365b4a;
 }
 
 .delivery::before {
-  content: url("/icons/chernica.png");
+  content: url("../../icons/chernica.png");
   position: absolute;
   top: 80%;
   left: 15%;
 }
 
 .delivery::after {
-  content: url("/icons/listform.png");
+  content: url("../../icons/listform.png");
   position: absolute;
   top: 57%;
   right: 0%;
@@ -150,7 +150,7 @@ input {
 
 .radio__visible-call::before {
   content: "";
-  background-image: url("/icons/galochka.png");
+  background-image: url("../../icons/galochka.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 0.8125rem;

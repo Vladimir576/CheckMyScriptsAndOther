@@ -98,7 +98,7 @@
 
   .bars {
     position: relative;
-    background-image: url(/icons/barsbg780.png);
+    background-image: url('../../icons/barsbg780.png');
     background-color: #86c3d7;
   }
 
