@@ -1,0 +1,23 @@
+.header__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__more-button {
+cursor: pointer;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__link {
+    font-size: 1.125rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.667;
+}
+
+.nav__item {
+    margin-right: 20px;
+}
